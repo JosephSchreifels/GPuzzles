@@ -10,7 +10,7 @@ if (isset($_POST['id'])){
     $puzzleFile = mysqli_real_escape_string($db, $_POST['puzzle_image']);
     unlink($puzzleFile);
 
-    // Unlink solution image
+    // Unlink solution image test
     $solutionFile = mysqli_real_escape_string($db, $_POST['solution_image']);
     unlink($solutionFile);
 

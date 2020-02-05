@@ -25,7 +25,7 @@ if (isset($_GET['id'])){
 }//end if
 
 if ($result->num_rows > 0) {
-    // output data of each row
+    // output data of each row test
     while($row = $result->fetch_assoc()) {
         echo '<form action="deleteThePuzzle.php" method="POST">
     <br>
